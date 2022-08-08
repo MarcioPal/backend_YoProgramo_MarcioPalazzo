@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://frontend-portfoliomarcio.web.app/")
 public class SkillController {
     @Autowired
     private ISkillService interSkill;
